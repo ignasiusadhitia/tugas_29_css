@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Belajar CSS - Niomic</title>
+    <link rel="stylesheet" type="text/css" href="/semantic.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <style>
+      body {
+        background: #dadada;
+      }
+
+      .my-wrapper {
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ui grid middle aligned center aligned my-wrapper">
+      <div class="four wide column">
+        <h2 class="ui teal image header">
+          <img src="/niomic.png" alt="logo-niomic" class="image" />
+          <div class="content">Daftar Akun NIOMIC</div>
+        </h2>
+        <form class="ui large form">
+          <div class="ui stacked segment">
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="text" name="nama-depan" placeholder="Nama Depan" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input
+                  type="text"
+                  name="nama-belakang"
+                  placeholder="Nama Belakang"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="tel" name="telepon" placeholder="No Telp/HP" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="email" name="email" placeholder="Alamat Email" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="lock icon"></i>
+                <input type="password" name="password" placeholder="Password" />
+              </div>
+            </div>
+            <div class="ui fluid large teal submit button">Login</div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  </body>
+</html>
